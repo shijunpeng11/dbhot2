@@ -1,0 +1,64 @@
+server.servlet.context-path=/
+spring.thymeleaf.cache=false
+spring.main.banner-mode=off
+logging.level.com.aaa.mapper=debug
+# 数据库配置
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/hospitaldata?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+# 配置spring-boot 静态资源文件路径
+spring.resources.static-locations=classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/templates/
+mybatis.type-aliases-package=com.aaa.entity
+# mybatis 映射文件位置
+mybatis.mapper-locations=classpath:mapper/*.xml
+# pagehelper分页插件配置
+pagehelper.helperDialect=mysql
+pagehelper.reasonable=true
+pagehelper.supportMethodsArguments=true
+pagehelper.pageSizeZero=true
+pagehelper.params=countSql
+# 数据库连接池配置
+spring.datasource.druid.initial-size=5
+spring.datasource.druid.min-idle=5
+spring.datasource.druid.max-active=20
+spring.datasource.druid.max-wait=60000
+spring.datasource.druid.time-between-eviction-runs-millis=60000
+spring.datasource.druid.min-evictable-idle-time-millis=300000
+spring.datasource.druid.validation-query=SELECT 1 FROM DUAL
+spring.datasource.druid.test-while-idle=true
+spring.datasource.druid.test-on-borrow=false
+spring.datasource.druid.test-on-return=false
+spring.datasource.druid.pool-prepared-statements=true
+spring.datasource.druid.max-pool-prepared-statement-per-connection-size=20
+spring.datasource.druid.web-stat.enabled=true
+spring.datasource.druid.web-stat.session-stat-enable=true
+spring.datasource.druid.web-stat.session-stat-max-count=1000
+
+
+
+
+C:\Users\lenovo\.m2\settings.xml
+spring.datasource.druid.web-stat.profile-enable=true
+spring.datasource.druid.web-stat.url-patterns=/*
+spring.datasource.druid.web-stat.exclusions=*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*
+spring.datasource.druid.stat-view-servlet.enabled=true
+spring.datasource.druid.stat-view-servlet.url-mappings=/druid/*
+spring.datasource.druid.stat-view-servlet.reset-enable=false
+spring.datasource.druid.stat-view-servlet.login-username=admin
+spring.datasource.druid.stat-view-servlet.login-password=admin
+spring.datasource.druid.stat-view-servlet.allow=127.0.0.1,47.96.238.64,47.95.223.144
+
+
+
+
+
+https://blog.csdn.net/augenstern_qxl/category_11281330.html?spm=1001.2014.3001.5482
+
+
+链接：https://pan.baidu.com/s/12PxqjrqZ50Tm6zYzN0brZw 
+提取码：vton
+
+
+spring   ：https://blog.csdn.net/nswzr
